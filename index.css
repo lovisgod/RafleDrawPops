@@ -1,0 +1,69 @@
+#counter{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+}
+
+#counter-number{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: inherit;
+    font-size: 200px;
+}
+
+#start_button{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    margin-right: 175px;
+    margin-top: 100px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: lightcyan;
+    font-size: 50px;
+}
+
+/* #reveal_button{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    margin-right: 175px;
+    margin-top: 100px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: lightcyan;
+    font-size: 50px;
+} */
+
+#start_button:hover{
+    background-color: khaki;
+}
+
+#result-section{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    margin-right: 50px;
+    margin-top: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 600px;
+    height: fit-content;
+    background-color: lightcyan;
+}
+
+#res{
+    font-size: 30px;
+}
